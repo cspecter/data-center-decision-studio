@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+.env.*
+!*.example
+
+# Locally exported confidential investor workspaces
+decision-studio-project*.json
+*-project-export.json
